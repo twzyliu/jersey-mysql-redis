@@ -5,7 +5,7 @@ public class UserId {
 
     private void setId(String id) {
         if (id == null) {
-            throw new IllegalArgumentException("id should not be null");
+            throw new IllegalArgumentException("id should not be null!");
         }
         this.id = id;
     }

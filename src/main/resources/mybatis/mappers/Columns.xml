@@ -4,10 +4,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="columns">
     <sql id="user">
-        U.id as userId,
-        U.name as userName,
-        U.email as userEmail,
-        U.password as userPassword,
-        U.role as userRole
+        U.uid as uid,
+        U.username as username,
+        U.nickname as nickname,
+        U.email as email,
+        U.password as password,
+        U.role as role,
+        U.department as department
     </sql>
 </mapper>
